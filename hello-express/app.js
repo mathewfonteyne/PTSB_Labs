@@ -12,7 +12,7 @@ app.get("/nav", (req, res) => {
 app.get("/goodbye", (req, res) => {
   res.send("h1><b>Thanks for visiting!</b></h1>");
 });
-app.get("/:page", (req, res) => {
+app.get("/:key", (req, res) => {
   console.log(req.params);
 });
 
